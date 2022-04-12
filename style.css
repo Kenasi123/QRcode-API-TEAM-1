@@ -1,18 +1,54 @@
-body {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:50vh;
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
-    background-color: aqua;
-} 
 
 
-
+.header {
+    background-color: rgb(51, 44, 44);
+    height: 150px;
+    text-align: center;
+    margin: 45px;
+    color: ivory;
+    padding: 30px;
+}
+.container {
+    background-color: #E8EAF6;
+    padding: 30px 45px;
+}
+.weather {
+    max-width: 1200px;
+    margin: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    padding: 30px 45px;
+}
+.affirmations {
+    color: #283593;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 45px;
+}
+.city {
+    margin: 0;
+    padding: 5px;
+    width: 450px;
+    height: 450px;
+    color: ivory;
+    text-align: center;
+    background-color:  rgb(85, 25, 25);
+}
+.alminac {
+    margin: 0;
+    width: 450px;
+    height: 450px;
+    padding: 5px;
+    background-image: url(https://i.pinimg.com/originals/c6/ac/de/c6acde0dec59df79074cdd39a0c9bd1e.gif);
+}
+.button {
+    
+}
 
 @media screen and (min-width:1201px) and (max-width:1475px) { 
 
-   
+    
+
 }
