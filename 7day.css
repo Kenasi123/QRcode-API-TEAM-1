@@ -1,0 +1,21 @@
+/* BACKGROUND IMAGE */
+body {
+    background-image: url(https://j.gifs.com/vQJxxY.gif);
+    height: 100%;
+    width: 100%;
+}
+/* MAIN BOX FOR 7 DAYS */
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 255, 255, 0.507);
+    justify-content: center;
+}
+/* DAY BOXES */
+.days {
+    background-color: rgb(209, 206, 206);
+    width: 800px;
+    height: 575px;
+    margin: 10px;
+    text-align: center;
+}
