@@ -1,10 +1,15 @@
 .header {
     background-color: rgb(51, 44, 44);
+    /* display: flex; */
     height: 150px;
     text-align: center;
     margin: 45px;
     color: ivory;
     padding: 30px;
+}
+.header img {
+    height: 50px;
+    width: 50px;
 }
 
 .container {
