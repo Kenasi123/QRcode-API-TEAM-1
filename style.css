@@ -1,28 +1,48 @@
-
+body {
+display: grid;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 18px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
 
 .header {
-    background-color: rgb(51, 44, 44);
     height: 150px;
     text-align: center;
-    margin: 45px;
-    color: ivory;
+    margin: 0px, 0px, 0px,45px;
     padding: 30px;
 }
+.header div {
+    background-color: #bb6885;
+    float:left;
+    /* width:50%; */
+    padding: .5em;
+
+}
 .container {
-    background-color: #E8EAF6;
-    padding: 30px 45px;
+    background-color: #0049B7;
+    justify-content:space-evenly;
+   
+    
 }
 .weather {
     max-width: 1200px;
     margin: 45px;
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 45px;
     grid-row-gap: 45px;
     padding: 30px 45px;
+   
 }
 .affirmations {
-    color: #283593;
+    color: #bb6885;
     font-size: 1.5rem;
     font-weight: normal;
     margin: 45px;
@@ -30,25 +50,24 @@
 .city {
     margin: 0;
     padding: 5px;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     color: ivory;
     text-align: center;
-    background-color:  rgb(85, 25, 25);
+    background-color: #80FF80;
+    border:10px groove rgba(65, 217, 209, 0.568);
 }
 .alminac {
-    margin: 0;
-    width: 450px;
-    height: 450px;
+    margin: 0 0 0 78px;
+    width: 500px;
+    height: 500px;
     padding: 5px;
-    background-image: url(https://i.pinimg.com/originals/c6/ac/de/c6acde0dec59df79074cdd39a0c9bd1e.gif);
-}
-.button {
-    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Clouds.gif);
+    border: 10px groove rgba(65, 217, 209, 0.555);
 }
 
 @media screen and (min-width:1201px) and (max-width:1475px) { 
 
-    
+
 
 }
