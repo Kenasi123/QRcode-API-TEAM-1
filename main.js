@@ -6,7 +6,7 @@ fetch("https://api.weatherapi.com/v1/current.json?key= a35c94fe128a46eaa9e174739
 
 }).then(function(data) {
     console.log(data)
-}) 
 
-
+}).catch(function (error) {
+    console.logo(error);
 })

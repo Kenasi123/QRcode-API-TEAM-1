@@ -17,6 +17,7 @@ text-transform: none;
     text-align: center;
     margin: 0px, 0px, 0px,45px;
     padding: 30px;
+    background-color:rgb(24, 183, 204);
 }
 .header div {
     background-color: #bb6885;
@@ -26,8 +27,8 @@ text-transform: none;
 
 }
 .container {
-    background-color: #0049B7;
-    justify-content:space-evenly;
+    background-color: rgb(24, 183, 204);
+    justify-content: space-evenly;
    
     
 }
