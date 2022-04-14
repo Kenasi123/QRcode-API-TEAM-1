@@ -1,23 +1,95 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>7DayForecast</title>
+        <title>7DayForcast</title>
         <link rel="stylesheet" href="7day.css">
-        <meta
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        
+        <meta>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body { overflow: hidden; }
+        #clouds-canvas {
+            width: 100%;
+            height: 100vh;
+            }
+        </style>
+           
     </head>
     <body>
-<!-- TITLE OF PAGE -->
-        <h2>7 Day Forecast</h2>
-<!-- MAIN CONTAINER -->
-        <div class="main">
-<!-- 7 DAYS OF THE WEEK -->
-            <div class="days">MONDAY</div>
-            <div class="days">TUESDAY</div>
-            <div class="days">WENESDAY</div>
-            <div class="days">THURSDAY</div>
-            <div class="days">FRIDAY</div>
-            <div class="days">SATURDAY</div>
-            <div class="days">SUNDAY</div>
+
+        <div class="body" id="clouds-canvas">
+            <!-- TITLE OF PAGE -->
+            
+                <div><h2 class="cent">7 Day Forecast</h2></div>
+                <div><h1 class="city">Atlanta, GA</h1></div>
+            
+            <!-- MAIN CONTAINER -->
+                        <div class="main">
+                            
+            <!-- 7 DAYS OF THE WEEK -->
+                            <div class="days" id="day1">
+                                MONDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day2">
+                                TUESDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day3">
+                                WENESDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day4">
+                                THURSDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day5">
+                                FRIDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day6">
+                                SATURDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                            <div class="days" id="day7">
+                                SUNDAY
+                                <div class="temp">63°</div>
+                                <div class="conditions"></div>
+                            </div>
+                        </div>
+        
+                <!-- BACKGROUND ANIMATION -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.clouds.min.js"></script>
+            <script type="text/javascript">
+                VANTA.CLOUDS ({
+                    el: "#clouds-canvas",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    skyColor: 0x6895d7,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    speed: 1.00
+                })
+            </script>
+            
         </div>
     </body>
+
+
 </html>
